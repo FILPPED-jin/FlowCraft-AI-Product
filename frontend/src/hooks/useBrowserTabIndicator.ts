@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 
 const CODING_SETTINGS = {
-  title: "Coding...",
+  title: "FlowCraft AI - Generating...",
   favicon: "/favicon/coding.png",
 };
 const DEFAULT_SETTINGS = {
-  title: "Screenshot to Code",
+  title: "FlowCraft AI",
   favicon: "/favicon/main.png",
 };
 
