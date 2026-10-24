@@ -95,6 +95,10 @@ Local runtime data is ignored by Git. For deployment, mount a persistent
 volume and set `FLOWCRAFT_DATA_DIR=/data/flowcraft`. SQLite is intended for a
 single backend instance; use a managed database before horizontal scaling.
 
+For a free, public Render backend deployment, see
+[docs/RENDER_DEPLOYMENT.md](./docs/RENDER_DEPLOYMENT.md). The included
+`render.yaml` provisions only one Free web service and no paid resources.
+
 ## Repository Notes
 
 This repository contains the cleaned FlowCraft product source without the

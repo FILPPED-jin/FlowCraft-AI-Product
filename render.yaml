@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: flowcraft-ai-backend
+    runtime: docker
+    plan: free
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    dockerCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    autoDeployTrigger: commit
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: IS_PROD
+        value: "true"
+      - key: FLOWCRAFT_DATA_DIR
+        value: /tmp/flowcraft
+      - key: LOCAL_ASSET_DIR
+        value: /tmp/flowcraft/local-assets
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: DASHSCOPE_API_KEY
+        sync: false
+
