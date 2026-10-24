@@ -1,4 +1,4 @@
-<h1>FlowCraft AI <img src="./frontend/public/favicon/flowcraft-apple.png" width="32" alt="FlowCraft AI Apple Logo" /></h1>
+# FlowCraft AI 🍎
 
 > 从视觉参考与业务目标出发，生成可运行、可评测、可迭代的跨场景交互原型。
 
