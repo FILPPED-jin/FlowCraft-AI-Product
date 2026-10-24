@@ -1,13 +1,22 @@
-# FlowCraft AI
+<p align="center">
+  <img src="./frontend/public/favicon/flowcraft-apple.png" width="96" alt="FlowCraft AI Apple Logo" />
+</p>
 
-> 从视觉参考与业务目标出发，生成可运行、可评测、可迭代的跨场景交互原型。
+<h1 align="center">FlowCraft AI</h1>
 
-[![React](https://img.shields.io/badge/React-18-149ECA?logo=react&logoColor=white)](./frontend)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)](./backend)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](./frontend)
-[![License](https://img.shields.io/badge/License-MIT-black.svg)](./LICENSE)
+<p align="center">从视觉参考与业务目标出发，生成可运行、可评测、可迭代的跨场景交互原型。</p>
 
-**在线体验：** [flowcraft-ai-product.pages.dev](https://flowcraft-ai-product.pages.dev/)
+<p align="center">
+  <a href="./frontend"><img src="https://img.shields.io/badge/React-18-149ECA?logo=react&logoColor=white" alt="React 18" /></a>
+  <a href="./backend"><img src="https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white" alt="FastAPI Backend" /></a>
+  <a href="./frontend"><img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript 5" /></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-black.svg" alt="MIT License" /></a>
+</p>
+
+<p align="center">
+  <strong>在线体验：</strong>
+  <a href="https://flowcraft-ai-product.pages.dev/">flowcraft-ai-product.pages.dev</a>
+</p>
 
 ![FlowCraft AI](./frontend/public/brand/twitter-summary-card.png)
 
