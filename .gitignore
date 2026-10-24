@@ -1,0 +1,31 @@
+.aider*
+node_modules
+*.tsbuildinfo
+frontend/.jest-cache-codex/
+notion-reference.png
+
+# Project-related files
+
+# Run logs
+run_logs/
+.flowcraft-runtime/
+generated/
+backend/local_assets/*
+backend/image_generation/eval_sets/*
+backend/image_generation/eval_results/*
+
+# Weird Docker setup related files
+backend/backend/*
+
+# Env vars
+frontend/.env.local
+.env
+
+# Mac files
+.DS_Store
+
+#Rodney
+.rodney
+
+# Walkthrough demo videos
+walkthrough/
