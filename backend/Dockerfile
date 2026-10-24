@@ -22,3 +22,6 @@ RUN playwright install --with-deps chromium
 
 # Copy the current directory contents into the container at /app
 COPY ./ /app/
+
+# Cloud platforms provide the public listening port at runtime.
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}"]

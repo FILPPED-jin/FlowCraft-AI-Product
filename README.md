@@ -99,6 +99,10 @@ For a free, public Render backend deployment, see
 [docs/RENDER_DEPLOYMENT.md](./docs/RENDER_DEPLOYMENT.md). The included
 `render.yaml` provisions only one Free web service and no paid resources.
 
+If Render account verification is unavailable, the same Docker backend can be
+deployed on Koyeb's Free instance using
+[docs/KOYEB_DEPLOYMENT.md](./docs/KOYEB_DEPLOYMENT.md).
+
 ## Repository Notes
 
 This repository contains the cleaned FlowCraft product source without the
