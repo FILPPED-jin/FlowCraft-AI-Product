@@ -22,8 +22,6 @@ export interface Settings {
   generatedCodeConfig: Stack;
   codeGenerationModel: CodeGenerationModel;
   selectedDesignSystemId: string | null;
-  // Only relevant for hosted version
-  isTermOfServiceAccepted: boolean;
   anthropicApiKey: string | null;
   geminiApiKey: string | null;
 }

@@ -556,7 +556,7 @@ class PromptCreationStage:
             return prompt_messages
         except Exception:
             await self.throw_error(
-                "Error assembling prompt. Contact support at support@getwhimsyworks.com"
+                "FlowCraft could not prepare this request. Please review the input and try again."
             )
             raise
 
@@ -722,14 +722,7 @@ class AgenticGenerationStage:
             print(f"[VARIANT {index + 1}] OpenAI Model not found", e)
             error_message = (
                 e.message
-                + ". Please make sure you have followed the instructions correctly to obtain "
-                "an OpenAI key with GPT vision access: "
-                "https://github.com/abi/screenshot-to-code/blob/main/Troubleshooting.md"
-                + (
-                    " Alternatively, you can purchase code generation credits directly on this website."
-                    if IS_PROD
-                    else ""
-                )
+                + ". The configured model is unavailable. Check the model name and API credentials, then try again."
             )
             await self.send_message("variantError", error_message, index, None, None)
             return ""

@@ -222,7 +222,6 @@ class App {
       editorTheme: "cobalt",
       generatedCodeConfig: this.stack,
       codeGenerationModel: this.model,
-      isTermOfServiceAccepted: true,
       accessCode: null,
     };
 
@@ -395,7 +394,7 @@ async function setupRequestInterception(
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Headers": "*",
           "Content-Disposition":
-            'attachment; filename="screenshot-to-code-export.zip"',
+            'attachment; filename="flowcraft-ai-export.zip"',
         },
         body: "mock export",
       });
