@@ -219,7 +219,7 @@ function PreviewComponent({
         device === "mobile"
           ? "flex justify-center overflow-hidden bg-gray-100 dark:bg-zinc-900"
           : activeMode === "fit"
-            ? "flex justify-center overflow-hidden"
+            ? "overflow-hidden"
             : "overflow-auto"
       } ${inSelectAndEditMode ? "cursor-crosshair" : ""}`}
     >
@@ -229,7 +229,7 @@ function PreviewComponent({
           device === "mobile"
             ? "flex justify-center overflow-hidden"
             : activeMode === "fit"
-              ? "flex justify-center overflow-hidden"
+              ? "overflow-hidden"
               : "overflow-auto"
         }`}
       >
@@ -240,6 +240,7 @@ function PreviewComponent({
           srcDoc={initialHtmlRef.current}
           className={classNames({
             "border-0": true,
+            "shrink-0": true,
           })}
         ></iframe>
         {pendingHtml && (
